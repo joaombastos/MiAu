@@ -1,0 +1,37 @@
+{
+  "build": {
+    "arduino": {
+      "memory_type": "qio_opi"
+    },
+    "core": "arduino",
+    "cpu": "esp32s3",
+    "mcu": "esp32s3",
+    "f_cpu": "240000000L",
+    "f_flash": "80000000L",
+    "flash_mode": "qio",
+    "flash_size": "16MB",
+    "psram_type": "opi",
+    "variant": "esp32s3",
+    "extra_flags": [
+      "-DBOARD_HAS_PSRAM"
+    ]
+  },
+  "connectivity": [
+    "wifi",
+    "bluetooth",
+    "usb"
+  ],
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Espressif ESP32-S3-DevKitC-1-N16R8 (16MB Flash, 8MB OPI PSRAM)",
+  "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html",
+  "vendor": "Espressif",
+  "upload": {
+    "maximum_ram_size": 327680,
+    "maximum_size": 16777216,
+    "flash_size": "16MB",
+    "require_upload_port": true
+  }
+}
+

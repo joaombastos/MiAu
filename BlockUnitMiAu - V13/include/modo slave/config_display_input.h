@@ -1,0 +1,48 @@
+#ifndef CONFIG_DISPLAY_INPUT_H
+#define CONFIG_DISPLAY_INPUT_H
+
+// ===== COORDENADAS X,Y DOS TEXTOS =====
+
+// Título principal
+#define INPUT_POS_TITLE_X 0
+#define INPUT_POS_TITLE_Y 10
+
+// Parâmetros - Linha 1 (Bars e Quant) - LADO A LADO
+#define INPUT_POS_BARS_X 5
+#define INPUT_POS_BARS_Y 25
+#define INPUT_POS_QUANT_X 50
+#define INPUT_POS_QUANT_Y 25
+
+// Parâmetros - Linha 2 (Channel e PreRoll) - LADO A LADO
+#define INPUT_POS_CHANNEL_X 5
+#define INPUT_POS_CHANNEL_Y 45
+#define INPUT_POS_PREROLL_X 50
+#define INPUT_POS_PREROLL_Y 45
+
+// ===== DIMENSÕES DOS FRAMES DE SELEÇÃO =====
+
+// Frame Bars
+#define INPUT_FRAME_BARS_X 5
+#define INPUT_FRAME_BARS_Y 17
+#define INPUT_FRAME_BARS_W 40
+#define INPUT_FRAME_BARS_H 12
+
+// Frame Quant
+#define INPUT_FRAME_QUANT_X 48
+#define INPUT_FRAME_QUANT_Y 17
+#define INPUT_FRAME_QUANT_W 80
+#define INPUT_FRAME_QUANT_H 12
+
+// Frame Channel
+#define INPUT_FRAME_CHANNEL_X 5
+#define INPUT_FRAME_CHANNEL_Y 37
+#define INPUT_FRAME_CHANNEL_W 40
+#define INPUT_FRAME_CHANNEL_H 12
+
+// Frame PreRoll
+#define INPUT_FRAME_PREROLL_X 48
+#define INPUT_FRAME_PREROLL_Y 37
+#define INPUT_FRAME_PREROLL_W 80
+#define INPUT_FRAME_PREROLL_H 12
+
+#endif
